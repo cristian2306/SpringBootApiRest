@@ -155,5 +155,5 @@
 
 Remember to add your both **Github** repos url into the **Ada** input box to deliver correctly your codelab.
 
-# Develop for  
+# Develop by  
 - Cristian Andres Castellanos Fino
