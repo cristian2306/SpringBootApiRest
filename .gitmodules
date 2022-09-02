@@ -1,3 +1,6 @@
 [submodule "userapi"]
 	path = userapi
 	url = https://github.com/cristian2306/UserAPI.git
+[submodule "taskapi"]
+	path = taskapi
+	url = https://github.com/cristian2306/TaskAPI.git
