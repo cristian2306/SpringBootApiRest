@@ -103,7 +103,7 @@
 ![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/post.png)  
 - GET ALL  
 ![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/getAll.png)  
--PUT
+- PUT
 ![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/put.png)  
 
 
