@@ -47,8 +47,19 @@ If you haven't created your MongoDB Cluster follow part 1 - 4:
             testImplementation 'org.springframework.boot:spring-boot-starter-test'
         }
     ```
-8. Run your project and verify that the connection is successful.
-9. To avoid future problems connecting to your Atlas instance (because of ip whitelist) find the way to allow connections from any Ip (not recommended for real-world applications)
+8. Run your project and verify that the connection is successful.  
+- GET  
+![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/getMongo.png)  
+- POST
+![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/postMongo.png)  
+- GET ALL
+![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/getAllMongo.png)  
+- PUT
+![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/putMongo.png)  
+- DELETE
+![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/deleteMongo.png)  
+![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/deleteTestMongo.png)  
+10. To avoid future problems connecting to your Atlas instance (because of ip whitelist) find the way to allow connections from any Ip (not recommended for real-world applications)
 
 ### Part 3: Implementing the MongoDB Service
 
@@ -153,10 +164,14 @@ If you haven't created your MongoDB Cluster follow part 1 - 4:
  
 2.  Add those 2 new mapping methods on the controller.
 3. Test your API, verify that queries work. 
+- findUsersWithNameOrLastNameLike
+![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/FindByNameOrLastName.png)  
+- findUsersCreatedAfter
+![](https://github.com/cristian2306/SpringBootApiRest/blob/master/img/Users/FindCreatedAfter.png)
    
 ***Tip***: take a look at the official documentation and learn how to create custom queries with [Spring Data](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation)
 ## Created By
-- Juan David Ramirez Mendoza
+- [Juan David Ramirez Mendoza](https://github.com/CAPJackie)
 ## Develop by
-- Cristian Andres Castellanos Fino
+- [Cristian Andres Castellanos Fino](https://github.com/cristian2306)
     
