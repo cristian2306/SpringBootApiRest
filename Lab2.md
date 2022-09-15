@@ -24,21 +24,21 @@ If you haven't created your MongoDB Cluster follow part 1 - 4:
 
 1. Login into your [MongoDB Atlas account](https://account.mongodb.com/account/login)
 2. Click *connect* on the cluster you created on Part 1:
-   <img align="center" src="img/mongo-db-connect.png">
+   <img align="center" src="https://github.com/CAPJackie/spring-boot-data-mongodb/blob/main/img/mongo-db-connect.png">
 3. Select *Connect your application*:
-   <img align="center" src="img/connect-your-application.png">
+   <img align="center" src="https://github.com/CAPJackie/spring-boot-data-mongodb/blob/main/img/connect-your-application.png">
 4. Choose the *Java* driver, select the latest version and copy the *connection string*:
-   <img align="center" src="img/java-driver.png">
+   <img align="center" src="https://github.com/CAPJackie/spring-boot-data-mongodb/blob/main/main/img/java-driver.png">
 5. Replace the *password* on the *connection string* with the password used when creating your database user.
 6. Add an *Environment Variable* to the *application.properties* file to store the MongoDB URI:
     ````properties
     spring.data.mongodb.uri=${MONGODB_URI}
     ````
 7. Add the environment variable to IntelliJ Idea by editing the Run/Debug Configurations:
-   <img align="center" src="img/run-debug-configurations.png">
+   <img align="center" src="https://github.com/CAPJackie/spring-boot-data-mongodb/blob/main/img/run-debug-configurations.png">
    
    
-   <img align="center" src="img/adding-environment-variable.png">
+   <img align="center" src="https://github.com/CAPJackie/spring-boot-data-mongodb/blob/main/img/adding-environment-variable.png">
 7. Add the Spring Boot starter data MongoDB dependency to your *build.gradle*:
     ```groovy
        dependencies {
