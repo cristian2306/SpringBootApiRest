@@ -4,6 +4,6 @@
 [submodule "taskapi"]
 	path = taskapi
 	url = https://github.com/cristian2306/TaskAPI.git
-[submodule "userfront"]
-	path = userfront
+[submodule "FrontUser"]
+	path = FrontUser
 	url = https://github.com/cristian2306/FrontUser.git
